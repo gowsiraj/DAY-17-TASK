@@ -24,6 +24,7 @@ restCountry
                     <img src="${data1[i].flags.svg}" class="card-img-top" alt="Flag">
                     <div class="card-body text-center">
                         <p class="card-text ">Country Code: ${data1[i].car.signs}</p>
+                         <p class="card-text ">Capital: ${data1[i].capital}</p>
                         <p class="card-text ">Region: ${data1[i].region}</p>
                         <button type="button" class="btn btn-danger " onclick="checkWeather('${data1[i].name.common}')">Check Weather</button>
                     </div>
